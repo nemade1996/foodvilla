@@ -1,0 +1,351 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .body{
+    font-family: "Poppins", sans-serif;
+  }
+
+  *{
+    font-family: "Poppins", sans-serif;
+  }
+  
+.restcard {
+    background-color: #ffffff;
+    border: 1px solid rgb(238 238 238);
+    padding: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.restcard img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.restcard h3{
+    color: #676767;
+    font-size: 14px;
+    min-height: 45px;
+}
+.restcard p{
+    color: #676767;
+}
+.restcard svg{
+    color: #ffdc4f;
+    font-size: 14px;
+}
+.btn {
+    background: #df1006;
+    padding: 6px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.btn:focus {
+    outline: none;
+}
+.btn:focus-visible {
+    outline: none;
+}
+.btn:hover {
+    background: transparent;
+    border: 1px solid #df1006;
+    color: #df1006;
+}
+input.searchbox {
+    width: 100%;
+    padding: 10px 40px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px 0px 5px 0px;
+    text-transform: capitalize;
+}
+.search-btn {
+    background-color: #df1006;
+    color: #fff;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 0px 6px 6px 0;
+}
+.nav-items a,.nav-items li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.header {
+    background-color: #fff;
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    z-index: 1;
+    position: relative;
+}
+.single-restaurant-detail{
+  
+}
+.single-restaurant-header{    
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0 0.125rem 0.25rem #00000013 !important;
+  background-image: url(./src/img/bg-title.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.single-restaurant-text{
+  margin: 30px 0;
+  padding: 30px;
+  width: 50%;
+  background-color: #f2f2f2;
+  margin: 0px auto;
+  text-align: center;
+}
+.single-restaurant-header h1{
+  font-size: 28px;
+  font-weight: 600;
+  color: #e01006;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.single-restaurant-header h3{
+  font-size: .93rem;
+  color: #7e808c;
+  height: calc(.93rem + 2px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+.accordian-title{
+  display: flex;
+  background-color: #f6f6f6;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  margin: 10px auto;
+  width: 70%;
+}
+.accordian-title h5{
+
+}
+.single-fooditem{
+  width: 60%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #ccc;
+}
+.fooditem-text{
+  text-align: left;
+}
+.fooditem-text h3{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.fooditem-text h4{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.fooditem-img{
+  position: relative;
+}
+/* .fooditem-img img{
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+} */
+
+.ft-social-media {
+  display: block;
+  align-items: center;
+  height: 100%;    
+  padding-top: 1.5rem;
+}
+.ft-social-media ul li {
+  margin-left: 15px;
+  transition: 0.3s;
+}
+.ft-social-media ul li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ada3a3;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.ft-social-media ul li a i{
+font-size: 18px;
+}
+.ft-social-media ul li:first-child{
+margin-left: 0;
+}
+.bg-title{
+}
+.slick-dots li button{
+  padding: 0 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.slick-dots li {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 2px !important;
+}
+.slick-dots li button:before{
+  width: 10px !important;
+  height: 10px !important;
+}
+.single-category-wrap{
+  margin: 0 10px;
+  margin-top: 30px;
+}
+.single-best-place-box{
+  padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.emptycart{
+
+}
+.emptycart img{
+  margin: auto;
+  width: 30%;
+}
+.emptycart h6{
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 5px;
+}
+.emptycart p{
+  font-size: 14spx;
+  text-align: center;
+  margin-bottom: 10px;
+}
